@@ -1,10 +1,6 @@
-function binarySearch(array, desiredItem) {
-  let low = 0;
-  let high = array.length - 1
+const {binarySearch} = require("./binarySearch")
 
-  while (true) {
-    const mid = (low + high) / 2
-  }
-}
+const nums = [-1,0,3,5,9,12]
+const target = 9
 
-binarySearch()
+binarySearch(nums, target)
